@@ -1,0 +1,173 @@
+/*
+  Theme Name:
+  Author: Debu
+  Support: staticdebu@gmail.com
+  Description: 
+  Version:
+*/
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. header-area
+----------------------------------- 
+*/
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/*==========================================
+    1. Theme default css starts
+==========================================*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p {
+	margin:0;
+	padding:0;
+}
+ul,li {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+a,.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+	text-decoration: none !important;
+	
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+/*==========================================
+    2. Header Area Css
+==========================================*/
+
+/* preloader-area starts */
+
+/* Header sticky css */
+.main-header.sticky-header.sticky {
+    
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: #FFFFFF;
+    transition: .4s ease-in-out 0s;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 -15px 11px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-header.sticky {
+    min-height: 75px;
+    transition: 0.4s ease-in-out 0s;
+}
+.main-header {
+	padding: 10px 0;
+}
+
+.main-header.sticky .main-menu nav ul li a {
+    color: #000000;
+}
+/* Header sticky css ends */
+
+/* Menu area css stats */
+.header-wrapper {
+	width: 87%;
+	margin: 0 auto;
+}
+.header-wrapper:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.logo {
+	width: 20%;
+	float: left;
+}
+.logo a {}
+
+.main-menu {
+    width: 80%;
+	float: right;
+	
+}
+.main-menu ul {
+	float: right;
+}
+.main-menu ul li {
+	display: inline-block;
+	position: relative;
+}
+
+.main-menu ul li a {
+	display: block;
+	color: #000000;
+	text-align: center;
+	padding: 8px 20px;
+	text-transform: capitalize;
+	font-size: 12px;
+	transition: 0.5s;
+
+}
+
+.main-menu ul li a.active {
+	color: #0080ff;
+}
+
+.main-menu ul li a:hover {
+	color: #0080ff;
+}
+.main-menu ul li a
+
+.main-menu ul li:hover a {
+	background: ;
+}
+.sticky-header .main-menu nav ul li a:hover {
+	color: #0080ff;
+}
+
+/* Menu area css ends */
+
+/*==========================================
+    2. Header Area Css End
+==========================================*/
+
+
+
+
+
+
+
+/*=========================================
+    . Scroll to top css
+==========================================*/
+.scroll-to-top i {
+    background: #0080FF;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: #FFFFFF;
+	border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right: 12px;
+    transition: .5s;
+	z-index: 99;
+}
+.scroll-to-top i:hover {
+    color: #000;
+	
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="us-en">
+    <head>
+		<!-- Define Charset -->
+        <meta charset="UTF-8">
+		<!-- Support Internet Explorer -->
+        <meta http-equiv="x-ua-compatible" content="IE=Edge">
+		<!-- Responsive Metatag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Page Description and Author -->
+        <meta name="description" content="Markus - HTML 5 Business Template">
+        <meta name="author" content="Debu">
+		<title></title>
+		<!-- Website Favicon -->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon"/>
+        <!---- Reset Css ----->
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <!------ Animate ------>
+        <link rel="stylesheet" href="assets/css/plugin/animate.css">
+        <!------ Hover Animation ------>
+        <link rel="stylesheet" href="assets/css/plugin/hover-min.css">
+        <!------ Bootstrap ------>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!----- Fontawesome icon ----->
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+        <!----- Icofont icon ----->
+        <link rel="stylesheet" href="assets/css/icofont.css">
+        <!----- Owl carousel ----->
+        <link rel="stylesheet" href="assets/css/plugin/owl.carousel.min.css">
+        <!----- Magnific PopUp ----->
+        <link rel="stylesheet" href="assets/css/plugin/magnific-popup.css">
+        <!----- Meanmenu ----->
+        <link rel="stylesheet" href="assets/css/plugin/meanmenu.css">
+        <!----- Main Css ----->
+        <link rel="stylesheet" href="assets/css/default.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+
+        <!----- Responsive Css ----->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!---------------------Preloader------------------>
+		<div class="page-loader">
+			<div class="image-wrap">
+				<img src="assets/img/loader.gif" alt="page-loader"/>
+			</div>
+		</div>
+		<!------------------Preloader---------------------->
+		
+        <!-------------------Header Start------------------->
+        <header class="main-header sticky-header">
+            <div class="header-wrapper">
+				<div class="logo">
+					<a href="index.html"><img src="assets/img/Business-logo.png" alt="logo"></a>
+				</div>
+				<div class="main-menu d-none d-md-block">
+					<nav>
+						<ul>                                                                 
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Features</a></li>
+							<li><a href="#">Pages</a></li>
+							<li><a href="#">Portfolio</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="mobile-menu  d-md-none">
+					<nav id="mobile-menu-active">
+						<ul>                                                                 
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Features</a></li>
+							<li><a href="#">Pages</a></li>
+							<li><a href="#">Portfolio</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+            </div>
+        </header>
+        <!--------------------Header End------------------>
+		
+        <!-------------------footer-area Ends----------------->
+        <!-- scroll up btn -->
+        <a class="scroll-to-top"><i class="fas fa-angle-up"></i></a>
+
+        <!--==================================================================-->
+        <script type="text/javascript" src="assets/js/vendor/jquery-1.12.0.min.js"></script>
+        <!----- All Plugins ----->
+        <script type="text/javascript" src="assets/js/popper.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/plugin/wow.min.js"></script>
+        <script type="text/javascript" src="assets/js/plugin/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="assets/js/plugin/jquery.magnific-popup.min.js"></script>
+        <script type="text/javascript" src="assets/js/plugin/jquery.meanmenu.min.js"></script>
+
+        <!----- All Active ----->
+        <script type="text/javascript" src="assets/js/main.js"></script>
+		<script>
+		
+			// Scroll Up Btn 
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 700) {
+					$(".scroll-to-top").fadeIn();
+				}
+				else {
+					$(".scroll-to-top").fadeOut();
+				}
+			});
+
+			$(".scroll-to-top").click(function() {
+				$("html, body").animate({scrollTop: 0}, 700);
+				return false;
+			});
+			
+		</script>
+    </body>
+</html>
